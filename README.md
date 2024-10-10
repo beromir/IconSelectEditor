@@ -1,5 +1,15 @@
 # Icon selection Editor for Neos CMS
 
+## Installation
+
+Run the following command in your site package:
+
+```bash
+composer require --no-update beromir/neos-icon-select-editor
+```
+
+Then run `composer update` in your project root.
+
 ## Usage
 
 ```yaml

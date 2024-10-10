@@ -1,5 +1,5 @@
 {
-    "name": "medienreaktor/neos-icon-select-editor",
+    "name": "beromir/neos-icon-select-editor",
     "type": "neos-plugin",
     "description": "A plugin for Neos CMS which provides a toggle editor.",
     "license": "GPL-3.0",
@@ -8,12 +8,6 @@
         "neoscms",
         "flow",
         "editor"
-    ],
-    "authors": [
-        {
-            "name": "Henrik Reißig",
-            "role": "Developer"
-        }
     ],
     "require": {
         "neos/neos-ui": "^5.3 || ^7.0 || ^8.0"
