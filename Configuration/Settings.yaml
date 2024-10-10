@@ -1,0 +1,15 @@
+Neos:
+  Neos:
+    Ui:
+      resources:
+        javascript:
+          Medienreaktor.IconSelectEditor:
+            resource: resource://Medienreaktor.IconSelectEditor/Public/Plugin.js
+        stylesheets:
+          Medienreaktor.IconSelectEditor:
+            resource: resource://Medienreaktor.IconSelectEditor/Public/Plugin.css
+    userInterface:
+      translation:
+        autoInclude:
+          Medienreaktor.IconSelectEditor:
+            - Main
