@@ -2,8 +2,8 @@
 
 namespace Medienreaktor\IconSelectEditor\DataSource;
 
+use Neos\ContentRepository\Core\Projection\ContentGraph\Node;
 use Neos\Neos\Service\DataSource\AbstractDataSource;
-use Neos\ContentRepository\Domain\Model\NodeInterface;
 
 class IconSourcesDataSource extends AbstractDataSource
 {
@@ -12,7 +12,7 @@ class IconSourcesDataSource extends AbstractDataSource
      */
     static protected $identifier = 'medienreaktor-iconselecteditor-icon-sources';
 
-    public function getData(NodeInterface $node = null, array $arguments = []): array
+    public function getData(Node $node = null, array $arguments = []): array
     {
         if (empty($arguments)) {
             return [];
